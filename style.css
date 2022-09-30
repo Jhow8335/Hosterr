@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+  background-color: #f5e6d3;
+  color: #000000;
+  font-family: 'Lato', sans-serif;
+  padding: 0 5%;
+  width: 89vw;
+}
+
+.cabecalho {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0 0 0;
+}
+
+.logo {
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.logo__botao {
+  background: linear-gradient(90deg,#ffa500,#ff4500);
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* menu */
+
+.menu {
+  display: flex;
+  gap: 15px;
+}
+
+.menu a {
+  color: #1e1e1e;
+  text-decoration: none;
+}
+
+/* login */
+
+.login {
+  align-items: center;  
+  display: flex;
+  gap: 15px;
+}
+
+.login a {
+  text-decoration: none;
+}
+
+/* botão */
+
+.login__botao {
+  color: #000000;
+}
+
+.login__waitlist {
+  background-color: #6e46cd;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 15px;
+}
+
+main {
+  align-items: center;
+  display: flex; 
+  justify-content: space-between;
+  padding: 100px 0 0 0;
+}
+
+.sectionText {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 700px;
+}
+
+.sectionText h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.sectionText p {
+  font-size: 17px; 
+}
+
+.form {
+  align-items: center;
+  display: flex;
+  gap: 15px;
+}
+
+.form__email {
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  width: 250px;
+}
+
+.form__botao {
+  background-color: #6e46cd;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.checkmark {
+  align-items: center;
+  display: flex;
+}
+
+.checkmark img {
+  padding-right: 10px;
+}
+
+.sectionImage {
+  height: 500px;
+  position: relative;
+  width: 350px;
+}
+
+.sectionImage__img-1 {
+  position: absolute;
+  transform: rotate(-45deg);
+  width: 100%;
+}
+
+.sectionImage__img-2  {
+  position: absolute;
+  transform: rotate(-30deg);
+  width: 100%;
+}
+
+.sectionImage__img-3 {
+  position: absolute;
+  transform: rotate(-15deg);
+  width: 100%;
+}
+
+.sectionImage__img-4 {
+  position: absolute;
+  width: 100%;
+}
+
+footer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.redes-sociais {
+  display: flex;
+  gap: 40px;
+}
+
+.help {
+  display: flex;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+}
+
+.help img {
+  padding-right: 10px;
+}
+
+.help__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.help__text a {
+  color: black;
+  font-family: 'Lato', serif;
+  font-weight: bold;
+  text-decoration: none;
+}
